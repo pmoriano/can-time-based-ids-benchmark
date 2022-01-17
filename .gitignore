@@ -1,0 +1,42 @@
+# ignore all data files with .pkl or .log extension
+*.pkl
+*.log
+
+#ignore .html files
+*.html
+
+# ignore exploratory scripts that no one should EVER SEE
+/exploratory
+data*/
+*data/
+
+# virtual environment
+env/
+
+# ignore journal
+*-journal.md
+
+# ignore ipynb checkpoints
+*.ipynb_checkpoints
+
+# ignore compressed files
+*.zip
+
+# ignore any .pyc files because they are annoying
+*.pyc
+
+## ignore hidden os files: (not sure what to put in for windows users )
+*.DS_Store
+.DS_Store
+
+## ignore latex auxiliary files
+*.bbl
+*.blg
+*.dvi
+*.out
+*.gz
+*.aux
+*.out
+*.log.txt
+*.bak
+*.csv 
