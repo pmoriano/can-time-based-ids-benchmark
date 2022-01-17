@@ -1,6 +1,8 @@
 # can-time-based-ids-benchmark
 
-This repository contains the source code and Jupyter notebook to replicate the results of the autosec21 publication.
+This repository contains the source code and Jupyter notebook to replicate the results of the autosec21 paper.
+
+Before, running this code, please create a subfolder called `data` in this repo and dump the content of the [ROAD](https://0xsam.com/road/) dataset in there.
 
 If you use this code, please cite the following papers:
 
